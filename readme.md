@@ -1,5 +1,11 @@
 # Model Deployement Using Docker
 
+## Run Using Docker Compose
+
+```bash
+docker-compose up
+```
+
 ## Run Without Make
 
 - Run the following command to build the docker image
