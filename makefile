@@ -4,8 +4,8 @@ install:
 train:
     python main.py
 
-docker-build:
+build:
     docker build -t flask-image .
 
-docker-run:
+run:
     docker run -p 8081:8081 flask-image

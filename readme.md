@@ -1,8 +1,7 @@
 # Model Deployement Using Docker
 
-## Get Started
+## Run Without Make
 
-- Clone the repository
 - Run the following command to build the docker image
 
 ```bash
@@ -13,4 +12,20 @@ docker build -t flask-image .
 
 ```bash
 docker run -d -p 8081:8081 flask-image
+```
+
+OR
+
+## Run Using Make
+
+- Build docker container
+
+```bash
+make build
+```
+
+- Run docker container
+
+```bash
+make run
 ```
